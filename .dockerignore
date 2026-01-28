@@ -1,0 +1,11 @@
+node_modules
+.next
+.git
+.gitignore
+.env*
+.DS_Store
+*.md
+e2e
+playwright.config.ts
+*.spec.ts
+.vercel

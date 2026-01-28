@@ -44,9 +44,7 @@ Open [http://localhost:3000](http://localhost:3000). Use one tab/browser as host
 
 1. Use the GitHub repo you created above (or connect another source).
 2. In [Railway](https://railway.com), create a new project and deploy from this repo.
-3. Build and start are configured in `railway.json`:
-   - **Build**: `npm run build`
-   - **Start**: `npm start` (runs the custom server that serves Next + Socket.IO)
+3. **Image build**: Railway uses the repo’s `Dockerfile`, which builds a Node 20 image, runs `npm run build`, and starts with `node server.js`. If you prefer Railpack instead, remove or rename the Dockerfile; then `railway.json` controls build and start.
 4. Railway sets `PORT`; the server uses it automatically.
 5. Generate a public URL in the service settings so players can open the app.
 
