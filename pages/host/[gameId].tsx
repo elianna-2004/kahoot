@@ -204,9 +204,9 @@ export default function HostGamePage() {
                 maxWidth: 320,
                 marginBottom: 32,
                 background: 'var(--bg-card)',
-                borderRadius: var(--radius),
+                borderRadius: 'var(--radius)',
                 padding: 16,
-                boxShadow: var(--shadow),
+                boxShadow: 'var(--shadow)',
               }}
             >
               {players.length === 0 ? (
@@ -243,10 +243,10 @@ export default function HostGamePage() {
                 padding: '16px 40px',
                 fontSize: 18,
                 fontWeight: 700,
-                borderRadius: var(--radius),
+                borderRadius: 'var(--radius)',
                 background: 'linear-gradient(135deg, var(--green), #16a34a)',
                 color: '#fff',
-                boxShadow: var(--shadow),
+                boxShadow: 'var(--shadow)',
                 opacity: players.length === 0 ? 0.5 : 1,
               }}
             >
@@ -293,7 +293,7 @@ export default function HostGamePage() {
                   padding: '12px 24px',
                   fontSize: 16,
                   fontWeight: 700,
-                  borderRadius: var(--radius),
+                  borderRadius: 'var(--radius)',
                   background: 'var(--bg-card)',
                   color: '#fff',
                   border: '2px solid var(--accent)',
@@ -307,7 +307,7 @@ export default function HostGamePage() {
                   padding: '12px 24px',
                   fontSize: 16,
                   fontWeight: 700,
-                  borderRadius: var(--radius),
+                  borderRadius: 'var(--radius)',
                   background: 'linear-gradient(135deg, var(--purple), #8b5cf6)',
                   color: '#fff',
                 }}
@@ -322,12 +322,12 @@ export default function HostGamePage() {
                   width: '100%',
                   maxWidth: 400,
                   background: 'var(--bg-card)',
-                  borderRadius: var(--radius),
+                  borderRadius: 'var(--radius)',
                   padding: 20,
-                  boxShadow: var(--shadow),
+                  boxShadow: 'var(--shadow)',
                 }}
               >
-                <h3 style={{ marginBottom: 16, fontSize: 1.25 }}>Leaderboard</h3>
+                <h3 style={{ marginBottom: 16, fontSize: '1.25rem' }}>Leaderboard</h3>
                 <ol style={{ listStyle: 'decimal', paddingLeft: 24 }}>
                   {leaderboard.slice(0, 10).map((p, i) => (
                     <li key={p.id} style={{ padding: '6px 0', display: 'flex', justifyContent: 'space-between' }}>
@@ -349,9 +349,9 @@ export default function HostGamePage() {
                 width: '100%',
                 maxWidth: 420,
                 background: 'var(--bg-card)',
-                borderRadius: var(--radius),
+                borderRadius: 'var(--radius)',
                 padding: 24,
-                boxShadow: var(--shadow),
+                boxShadow: 'var(--shadow)',
               }}
             >
               <h3 style={{ marginBottom: 16, fontSize: '1.25rem' }}>Final leaderboard</h3>

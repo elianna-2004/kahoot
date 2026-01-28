@@ -58,10 +58,10 @@ export default function HostPage() {
             padding: '16px 40px',
             fontSize: 18,
             fontWeight: 700,
-            borderRadius: var(--radius),
+            borderRadius: 'var(--radius)',
             background: 'linear-gradient(135deg, var(--accent), var(--accent-hover))',
             color: '#fff',
-            boxShadow: var(--shadow),
+            boxShadow: 'var(--shadow)',
             opacity: creating ? 0.7 : 1,
           }}
         >

@@ -195,10 +195,10 @@ export default function PlayerGamePage() {
                       padding: '20px 16px',
                       fontSize: 16,
                       fontWeight: 700,
-                      borderRadius: var(--radius),
+                      borderRadius: 'var(--radius)',
                       color: '#fff',
                       textAlign: 'left',
-                      boxShadow: var(--shadow),
+                      boxShadow: 'var(--shadow)',
                       border: chosen ? '4px solid #fff' : '4px solid transparent',
                       opacity: disabled && !chosen && !correct ? 0.5 : 1,
                       transition: 'transform 0.15s, filter 0.15s',
@@ -237,9 +237,9 @@ export default function PlayerGamePage() {
                 width: '100%',
                 maxWidth: 400,
                 background: 'var(--bg-card)',
-                borderRadius: var(--radius),
+                borderRadius: 'var(--radius)',
                 padding: 24,
-                boxShadow: var(--shadow),
+                boxShadow: 'var(--shadow)',
               }}
             >
               <ol style={{ listStyle: 'decimal', paddingLeft: 24 }}>
