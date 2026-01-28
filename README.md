@@ -57,6 +57,10 @@ Open [http://localhost:3000](http://localhost:3000). Use one tab/browser as host
 - `lib/socket.ts` – Socket.IO client helper
 - `lib/sampleQuiz.ts` – Default quiz used when hosting
 
+## Build verification
+
+A [GitHub Actions](https://github.com/features/actions) workflow (`.github/workflows/build.yml`) runs `npm install` and `npm run build` on every push and pull request to `main`/`master`. Use it to confirm the project builds before deploying.
+
 ## Run tests
 
 E2E tests use [Playwright](https://playwright.dev) and cover player join and gameplay:
